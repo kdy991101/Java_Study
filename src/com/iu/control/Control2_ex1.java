@@ -2,7 +2,7 @@ package com.iu.control;
 
 import java.util.Scanner;
 
-public class Control2_1 {
+public class Control2_ex1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
