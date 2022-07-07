@@ -31,7 +31,7 @@ public class Control2_ex2 {
 			 
 			 
 			
-			 
+//			 study
 			 
 			
 	}
