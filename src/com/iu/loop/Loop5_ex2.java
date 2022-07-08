@@ -27,7 +27,30 @@ public class Loop5_ex2 {
 		 			System.out.println("비겼습니다 다시하세요");
 		 		}else 
 		 			System.out.println("패배..다시하세요");		
-		}
-	}
-
+		}//while
+//=================================밑 강사님 풀이
+/*		boolean check = true;
+		
+		while(check) {
+			System.out.println("가위 바위 보");
+			int you = sc.nextInt();
+			int com = random.nextInt(3);
+			System.out.print("you :" + you + "-- com : " + com);
+			
+			if(com == 0 && you == 2) {
+			you=-1;
+			}
+			if (com ==2 && you == 0) {
+			com -= 0;
+			}
+			if(com < you) {
+				System.out.println("승리");
+				break;
+			}else if (com == you);
+			System.out.println("비김");
 }
+*/
+// ===========================================================
+	}//main
+
+}//class
