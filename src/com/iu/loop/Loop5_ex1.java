@@ -21,7 +21,7 @@ public class Loop5_ex1 {
 //	3 -> 4 : 9
 //	4 -> 5 : 12
 //	14 -> 15 : ?? 
-//	
+//	.
 		Scanner sc = new Scanner(System.in);
 		int yid = 12;
 		int ypw = 12;
