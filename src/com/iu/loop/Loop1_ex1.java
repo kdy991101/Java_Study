@@ -8,6 +8,7 @@ public class Loop1_ex1 {
 		// TODO Auto-generated method stub
 // 0~9 출력하는 반복문
 //		단 출력은 짝수만 	
+//		단 출력은 짝수만 	
 		for(int i=0; i<10; i++) {
 		System.out.println(i);
 		i++;//i=i+1;
