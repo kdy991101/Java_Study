@@ -9,6 +9,7 @@ public class Loop4_ex1 {
 //		0분0초-59분59초
 //		sca 만들어 분과 초를 입력 받아
 //		ex)1분 15를 입력 받으면
+//		ex)1분 15를 입력 받으면
 		System.out.println("분을 입력하세요");
 		Scanner sc = new Scanner(System.in);
 		int q = sc.nextInt();
