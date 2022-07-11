@@ -7,6 +7,7 @@ public class Loop1_ex2_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //1-10까지의 합
+//1-10까지의 합
 		
 		
 		Scanner sc = new Scanner(System.in);
