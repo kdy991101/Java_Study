@@ -8,6 +8,7 @@ public class Loop1_ex2 {
 		// TODO Auto-generated method stub
 //		1. 1번 누르면 대문자 2번이면 소문자
 //		   1번이면 대문자AZ 2번이면 소문자az
+//		   1번이면 대문자AZ 2번이면 소문자az
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("1번\'대문자\'  2번\'소문자\' 선택하세요");
