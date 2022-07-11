@@ -10,7 +10,7 @@ public class Loop4_ex2 {
 //		총알 : 30발, 3개
 		
 //		1. 단발 2. 점사
-//    소리 탕
+//    소리 탕.
 			Scanner sc = new Scanner(System.in);
 			for(int q = 0; q < 3; q++) {
 			System.out.println("1번\'단발\'  2번\'점사\' 선택하세요");
