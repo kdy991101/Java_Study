@@ -49,7 +49,7 @@ public class Loop5_ex2 {
 			}else if (com == you);
 			System.out.println("비김");
 }
-*/
+*///
 // ===========================================================
 	}//main
 
