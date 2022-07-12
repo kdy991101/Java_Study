@@ -99,76 +99,69 @@ public class Array_ex3 {
 		 }
 		 }else if(w == 3)
 		 {
-			 System.out.println("학생 정보를 삭제합니다.");
-			 for(int i = 0; i<count; i++) {
-				 System.out.println("삭제할 학생의 번호를 입력하세요.");
-			 int x = sc.nextInt();
-			 	if(x == number[i])
-			 	{
-			 		
-			 	}
-			 }
+			 System.out.println("학생 정보를 삭제할 번호를 입력해주세요");
+			 w = sc.nextInt();
+				boolean flag = false;
+				String[] namesCopy = null;
+				int [] numberCopy = null;
+				int [] kCopy = null;
+				int [] eCopy = null;
+				int [] mCopy = null;
+				int [] ageCopy = null;
+				int [] averCopy = null;
+				int i = 0;
+				for (i = 0; i < names.length; i++)
+				{
+					if (w == number[i]) 
+					{
+						flag= !flag;
+						break;
+					}
+				}
+				if(flag)
+				{
+					namesCopy = new String [names.length-1];
+					numberCopy = new int [names.length];
+					kCopy = new int [names.length];
+					eCopy = new int [names.length];
+					mCopy = new int [names.length];
+					ageCopy = new int [names.length];
+					averCopy = new int [names.length];
+					int index = 0;
+					for(int j = 0; j<names.length; j++)
+					{
+						if (j == i) 
+						{
+//							index--;
+							continue;
+						}
+						namesCopy[index] = names[j];
+						number[index] = number[j];
+						k[index] = k[j];
+						e[index] = e[j];
+						m[index] = m[j];
+						age[index] = age[j];
+						aver[index] = aver[j];
+						index++;
+					}
+					names = namesCopy;
+					number = numberCopy;
+					k = kCopy;
+					e = eCopy;
+					m = mCopy;
+					age = ageCopy;
+					aver = averCopy;			
+				}
+				else
+				{
+					System.out.println("일치하는 학생 정보 없음");
+				}
+				System.out.println("학생 정보 삭제가 완료되었습니다.");
 			  
 		 }else if (w == 4)
 		 {
 			System.out.println("학생 정보를 추가합니다."); 
-			w = sc.nextInt();
-			boolean flag = false;
-			String[] namesCopy = null;
-			int [] numberCopy = null;
-			int [] kCopy = null;
-			int [] eCopy = null;
-			int [] mCopy = null;
-			int [] ageCopy = null;
-			int [] averCopy = null;
-			int i = 0;
-			for (i = 0; i < names.length; i++)
-			{
-				if (w == number[i]) 
-				{
-					flag= !flag;
-					break;
-				}
-			}
-			if(flag)
-			{
-				namesCopy = new String [names.length-1];
-				numberCopy = new int [names.length];
-				kCopy = new int [names.length];
-				eCopy = new int [names.length];
-				mCopy = new int [names.length];
-				ageCopy = new int [names.length];
-				averCopy = new int [names.length];
-				int index = 0;
-				for(int j = 0; j<names.length; j++)
-				{
-					if (j == 1) 
-					{
-//						index--;
-						continue;
-					}
-					namesCopy[index] = names[j];
-					number[index] = number[j];
-					k[index] = k[j];
-					e[index] = e[j];
-					m[index] = m[j];
-					age[index] = age[j];
-					aver[index] = aver[j];
-					index--;
-				}
-				names = namesCopy;
-				number = numberCopy;
-				k = kCopy;
-				e = eCopy;
-				m = mCopy;
-				age = ageCopy;
-				aver = averCopy;			
-			}
-			else
-			{
-				System.out.println("일치하는 학생 정보 없음");
-			}
-			System.out.println("학생 정보 삭제가 완료되었습니다.");
+			
 		 }else if(w == 5)
 		 {
 			 System.out.println("프로그램을 종료합니다.");
